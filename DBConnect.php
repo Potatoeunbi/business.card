@@ -1,6 +1,6 @@
  <?php
   session_start();
-  $host = '220.69.247.23';
+  $host = '';
    $user = 'root';
    $pw = '';
    $db_name = 'business_card';
