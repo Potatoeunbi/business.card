@@ -1,0 +1,68 @@
+.mypag1 {
+  width: 100%;
+}
+#mypagdetail {
+  display: block;
+}
+
+#table_sample001 {
+  overflow: hidden;
+}
+.test4 {
+}
+#table_b {
+}
+.test4.collapsed {
+  max-height: 0;
+}
+
+#test2 {
+  display: block;
+}
+.maintable {
+  border: black;
+}
+.mypageinput {
+  margin-right: 2%;
+  height: 35px;
+  font-size: 25px;
+  width: 200px;
+  float: right;
+}
+/*
+input[id*="answer"] {
+  display: none;
+}
+input[id*="answer"] + label {
+  display: block;
+  width: 100px;
+  height: 50px;
+  padding-top: 0px;
+  border: 0px solid #white;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  background:#00C0FF;
+  cursor: pointer;
+  align-items: center;
+}
+input[id*="answer"]:checked + label{
+  background-color: green;
+}
+
+input[id*="answer"]:checked + tr + td + h1{
+  display: none;
+}
+input[id*="answer"] + label > tr {
+  max-height: 0;
+  transition: all .35s;
+  overflow: hidden;
+  background: #ebf8ff;
+  font-size: 11px;
+}
+input[id*="answer"] + label > tr {
+  display: inline-block;
+  padding: 0px;
+}
+input[id*="answer"]:checked + label > tr {max-height: 100px;} */
+/* */

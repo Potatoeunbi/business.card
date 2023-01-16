@@ -1,0 +1,18 @@
+i[id="UserInfo"]{
+    float:right;
+  }
+  div[id="UserInfoCard"]{
+    position: fixed;
+    right:4%;
+    top:150px;
+    background-color: #87CEFA; 
+    width: 200px; height: 300px; 
+    display:inline-block; 
+    border-radius: 20px; 
+    text-align: center; 
+    word-break:break-all;
+    display:none;
+  }
+  div[id="UserInfoDiv"]:hover + div{
+    display:block;
+  }

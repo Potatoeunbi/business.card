@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Trade Page</title>
+  <script src="https://kit.fontawesome.com/1e25dcd7a8.js" crossorigin="anonymous"></script>
+  jQuery.com CDN : <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+  <link rel="stylesheet" href="./css/button.css">
+  <link rel="stylesheet" href="./css/left.css">
+  <link rel="stylesheet" href="./css/center.css">
+  <link rel="stylesheet" href="./css/slidbar.css">
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .center {
+      padding-top: 20px;
+      width: 100%;
+      height: 800px;
+    }
+
+    .container {
+      height: 969px;
+      width: 100%;
+      display: flex;
+    }
+
+    .blue {
+      height: 100%;
+      width: 100px;
+      background-color: #00C0FF;
+    }
+
+    .Tcenter {
+      height: 95%;
+      width: 100%;
+    }
+
+    .trade {
+      border-collapse: collapse;
+      text-align: left;
+      line-height: 1.5;
+      display: block;
+    }
+
+    table[id*="table_sample"] {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th {
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+      vertical-align: top;
+      color: #70DBFA;
+      font-size: 30px;
+      border-bottom: 3px solid #9DD3EB;
+    }
+
+    td {
+      text-align: center;
+      align: right;
+      vertical-align: top;
+      line-height: 50px;
+      font-size: 17px;
+    }
+
+    tbody tr:nth-child(2n) {
+      background-color: #9E9E9E;
+    }
+
+    tbody tr:nth-child(2n+1) {
+      background-color: #CFD8DC;
+    }
+
+    tbody {
+      align-item: right;
+    }
+
+    thead[id*="D"] tr:nth-child(n+1) {
+      background-color: #9E9E9E;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <div class="sidebar">
+        <ul class="Menu">
+          <li>
+            <table>
+              <tr>
+                <td><i class="fa-brands fa-ethereum fa-6x"></i></td>
+                <td>
+                  <p>SmartContract</p>
+                </td>
+              </tr>
+            </table>
+          </li>
+          <li onclick="location.href=''">
+            <table>
+              <tr>
+                <td><i class="fa-solid fa-folder-plus fa-4x"></i></td>
+                <td>
+                  <p>Create</p>
+                </td>
+              </tr>
+            </table>
+          </li>
+          <li onclick="location.href=''">
+            <table>
+              <tr>
+                <td><i class="fa-solid fa-money-bill-trend-up fa-4x"></i></td>
+                <td>
+                  <p>Trade</p>
+                </td>
+              </tr>
+            </table>
+          </li>
+          <li onclick="location.href=''">
+            <table>
+              <tr>
+                <td><i class="fa-solid fa-wallet fa-4x"></i></td>
+                <td>
+                  <p>My list</p>
+                </td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="right" style="padding-left:6%;">
+      <h1 class="User">User Info</h1>
+      <div class="center">
+        <div class="trade" id="imypage">
+          <table id="table_sample001">
+            <tr style="background-color: white;">
+              <th>이름</th>
+              <th>내용</th>
+              <th>소유자</th>
+              <th>가격</th>
+              <th></th>
+            </tr>
+            <tbody id="tbody1" class="fuck">
+            <tbody id="A" class="C">
+              <tr>
+                <td>이름</td>
+                <td>내용</td>
+                <td>소유자</td>
+                <td>가격</td>
+                <td><button id="btn" class="TDetails" type="button" name="button" value="$1">Details</button></td>
+              </tr>
+              <tr colspan="5">
+                <td colspan="5">
+                  <div id="test1" class="test" style="display: none;">
+                    <table id="table_b" style="width:100%; padding: 30px; border:0;">
+                      <thead class="C" id="D">
+                        <tr>
+                          <th colspan="4" style="text-align:left;">거래 내역</th>
+                        </tr>
+                        <tr>
+                          <td>고래문제</td>
+                          <td>얼마일가요? </td>
+                          <td>우영우</td>
+                          <td>200만원</td>
+                        </tr>
+                        <td colspan="4"><button class="TradeTbtn" type="" name="button" onclick="details.js">판매 신청</button></td>
+                      </thead>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="A" class="C">
+              <tr>
+                <td>이름</td>
+                <td>내용</td>
+                <td>소유자</td>
+                <td>가격</td>
+                <td><button id="btn" class="TDetails" type="button" name="button">Details</button></td>
+              </tr>
+              <tr colspan="5">
+                <td colspan="5">
+                  <div id="test1" class="test" style="display:block;">
+                    <table id="table_b" style="width:100%; padding: 30px; border:0;">
+                      <thead class="C" id="D">
+                        <tr>
+                          <th colspan="4" style="text-align:left;">거래 내역</th>
+                        </tr>
+                        <tr>
+                          <td>고래문제</td>
+                          <td>얼마일가요? </td>
+                          <td>우영우</td>
+                          <td>200만원</td>
+                        </tr>
+                        <td colspan="4"><button class="TradeTbtn" type="" name="button">판매 신청</button></td>
+                      </thead>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="A" class="C">
+              <tr>
+                <td>이름</td>
+                <td>내용</td>
+                <td>소유자</td>
+                <td>가격</td>
+                <td><button id="btn" class="TDetails" type="button" name="button">Details</button></td>
+              </tr>
+              <tr colspan="5">
+                <td colspan="5">
+                  <div id="test1" class="test" style="display:none;">
+                    <table id="table_b" style="width:100%; padding: 30px; border:0;">
+                      <thead class="C" id="D">
+                        <tr>
+                          <th colspan="4" style="text-align:left;">거래 내역</th>
+                        </tr>
+                        <tr>
+                          <td>고래문제</td>
+                          <td>얼마일가요? </td>
+                          <td>우영우</td>
+                          <td>200만원</td>
+                        </tr>
+                        <td colspan="4"><button class="TradeTbtn" type="" name="button">판매 신청</button></td>
+                      </thead>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/details.js">
+
+</script>
+
+</html>

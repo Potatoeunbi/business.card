@@ -1,0 +1,63 @@
+p[class="pos"] {
+  position: absolute;
+  top: 170px;
+  left: 400px;
+}
+div[class="RadioBut"] > input {
+  display: none;
+}
+p[class="pos"] label {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #666;
+  background: #fff;
+  transition: 0.3s;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#pos1:checked ~ .pos > label:nth-child(1) {
+  background: #64c7cd;
+}
+#pos1:checked ~ div > label:nth-child(2) {
+  display: none;
+  opacity: 0;
+}
+#pos1:checked ~ div > label:nth-child(3) {
+  display: none;
+  opacity: 0;
+}
+
+#pos2:checked ~ .pos > label:nth-child(2) {
+  background: #44adda;
+}
+#pos2:checked ~ div > label:nth-child(1) {
+  display: none;
+  opacity: 0;
+}
+#pos2:checked ~ div > label:nth-child(2) {
+  display: block;
+  opacity: 1;
+}
+#pos2:checked ~ div > label:nth-child(3) {
+  display: none;
+  opacity: 0;
+}
+
+#pos3:checked ~ .pos > label:nth-child(3) {
+  background: #1263ce;
+}
+#pos3:checked ~ div > label:nth-child(1) {
+  display: none;
+  opacity: 0;
+}
+#pos3:checked ~ div > label:nth-child(2) {
+  display: none;
+  opacity: 0;
+}
+#pos3:checked ~ div > label:nth-child(3) {
+  display: block;
+  opacity: 1;
+}

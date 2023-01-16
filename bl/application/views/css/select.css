@@ -1,0 +1,49 @@
+input[id="SelectNumber"]{
+  box-shadow: 1px 1px 4px grey; 
+  width: 230px; 
+  height: 30px; 
+  position: relative; 
+  top:20%; 
+  border-radius: 6px; 
+  border: none;
+}
+ul[id="SelectUl"]{
+  -ms-overflow-style: none;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color: #F1F2F4;
+  padding: 0;
+  margin-top: 6%;
+}
+
+#SelectUl::-webkit-scrollbar{
+  display:none;
+}
+
+div[id="CoinSelect"]{
+  width: 250px;
+  position: relative;
+  left: 5%;
+  top: 0px;
+}
+input[id="select"]{
+  display: none;
+}
+input[id="select"]:checked + div{
+ display: block;
+ opacity: 1;
+}
+div[id="SelectMenu"]{
+  background-color: white;
+  width:250px;
+  height: 60px;
+  text-align: center;
+  display: none;
+}
+li[class="Selectli"]{
+  background-color: white;
+}
+li[class="Selectli"]:hover{
+  background-color: rgba(255,255,255,.3);
+}

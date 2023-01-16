@@ -1,0 +1,95 @@
+
+#left{
+  background-color: #00C0FF;
+  height: 100%;
+  width: 100%;
+}
+.blue {
+  display:block;
+  color:#333;
+  transition:all 0.9s, color 0.3;
+  text-align:center;
+  cursor: pointer;
+}
+.blue:hover{
+  color: #fff;
+}
+.Cbutton {
+  height: 70px;
+  width: auto;
+  font-size: 29px;
+  background-color: #00C0FF;
+  border: #00C0FF;
+}
+.Cbutton:hover{
+    box-shadow:200px 0 0 0 rgba(0,0,0,0.5) inset;
+}
+.mypagebtn, .mypagebtn1 {
+  height: 70px;
+  width: auto;
+  font-size: 29px;
+  background-color: #00C0FF;
+  border: #00C0FF;
+}
+.mypagebtn:hover{
+  box-shadow: 200px 0 0 0 rgba(0,0,0,0.25) inset,
+             -200px 0 0 0 rgba(0,0,0,0.25) inset;
+}
+.tradebtn {
+  height: 70px;
+  width: auto;
+  font-size: 29px;
+  background-color: #00C0FF;
+  border: #00C0FF;
+}
+.tradebtn:hover{
+  box-shadow: 200px 0 0 0 rgba(0,0,0,0.25) inset,
+             -200px 0 0 0 rgba(0,0,0,0.25) inset;
+}
+.MDetails {
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  background-color: #00C0FF;
+  border: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.TDetails {
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  background-color: #00C0FF;
+  border: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.TradeTbtn {
+  width: 100px;
+  height: 40px;
+  float: right;
+  color: white;
+  font-size: 20px;
+  background-color: #00C0FF;
+  border: white;
+  border-radius: 20px;
+  margin-right: 5%;
+}
+.buybtn{
+  width: 100px;
+  height: 40px;
+  float: right;
+  color: white;
+  font-size: 20px;
+  background-color: #00C0FF;
+  border: white;
+  border-radius: 20px;
+}
+.dropdownbtn{
+  height: 60px;
+  width: 250px;
+  background-color: #CFD8DC;
+  border: none;
+}

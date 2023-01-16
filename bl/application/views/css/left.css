@@ -1,0 +1,11 @@
+#left{
+  background-color: #00C0FF;
+}
+.right {
+  width: 89%;
+  padding-left: 3%;
+}
+.User {
+  font-size: 30px;
+  float: right;
+}

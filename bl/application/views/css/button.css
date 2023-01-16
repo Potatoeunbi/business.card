@@ -1,0 +1,122 @@
+#left {
+  background-color: #00c0ff;
+  height: 100%;
+  width: 100%;
+}
+.blue {
+  display: block;
+  color: #333;
+  transition: all 0.9s, color 0.3;
+  text-align: center;
+  cursor: pointer;
+}
+.blue:hover {
+  color: #fff;
+}
+.Cbutton {
+  height: 70px;
+  width: auto;
+  font-size: 29px;
+  background-color: #00c0ff;
+  border: #00c0ff;
+}
+.Cbutton:hover {
+  box-shadow: 200px 0 0 0 rgba(0, 0, 0, 0.5) inset;
+}
+.mypagebtn,
+.mypagebtn1 {
+  height: 70px;
+  width: auto;
+  font-size: 29px;
+  background-color: #00c0ff;
+  border: #00c0ff;
+}
+.mypagebtn:hover {
+  box-shadow: 200px 0 0 0 rgba(0, 0, 0, 0.25) inset,
+    -200px 0 0 0 rgba(0, 0, 0, 0.25) inset;
+}
+.tradebtn {
+  height: 70px;
+  width: auto;
+  font-size: 29px;
+  background-color: #00c0ff;
+  border: #00c0ff;
+}
+.tradebtn:hover {
+  box-shadow: 200px 0 0 0 rgba(0, 0, 0, 0.25) inset,
+    -200px 0 0 0 rgba(0, 0, 0, 0.25) inset;
+}
+.MDetails {
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  background-color: #00c0ff;
+  border: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.Details1 {
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  background-color: #00c0ff;
+  border: white;
+  border-radius: 20px;
+}
+.Details2 {
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  background-color: #00c0ff;
+  border: white;
+  border-radius: 20px;
+}
+.Details3 {
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  background-color: #00c0ff;
+  border: white;
+  border-radius: 20px;
+}
+.Details4 {
+  width: 100px;
+  height: 40px;
+  float: right;
+  color: white;
+  font-size: 20px;
+  background-color: #00c0ff;
+  border: white;
+  border-radius: 20px;
+}
+
+.mypageTbtn {
+  width: 100px;
+  height: 40px;
+  float: right;
+  color: white;
+  font-size: 20px;
+  background-color: #00c0ff;
+  border: white;
+  border-radius: 20px;
+}
+.buybtn {
+  width: 100px;
+  height: 40px;
+  float: right;
+  color: white;
+  font-size: 20px;
+  background-color: #00c0ff;
+  border: white;
+  border-radius: 20px;
+}
+.dropdownbtn {
+  height: 60px;
+  width: 250px;
+  background-color: #cfd8dc;
+  border: none;
+}
