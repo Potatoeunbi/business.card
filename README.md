@@ -18,7 +18,7 @@
 ## 프로젝트 주요 기능 이미지
 <table align="center">
 <tr>
-<td><img src = "https://user-images.githubusercontent.com/93712785/215823512-c4e4ed88-d8ff-48fa-902c-0b98da7facd3.png" width = "800" hight = "400"/>
+<td><img src = "https://user-images.githubusercontent.com/93712785/215824066-6ba12d87-7d31-4762-9d2b-769c2474c6db.png" width = "800" hight = "400"/>
 <td><img src = "https://user-images.githubusercontent.com/93712785/215823528-6ea1e4cf-c740-4184-a86c-4c4719a25d31.png" width = "800" hight = "400"/>
 <tr>
 <tr>
@@ -30,7 +30,5 @@
 <td><img src = "https://user-images.githubusercontent.com/93712785/215823605-44d39423-0cea-43e9-8912-2b060e4b03b9.png" width = "800" hight = "400"/>
 <tr>
 </table>
-
-
 
 
