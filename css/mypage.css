@@ -1,0 +1,36 @@
+ul,
+li,
+a {
+  list-style: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 50px;
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+.manage_comm {
+  overflow: visible;
+  position: relative;
+  min-width: 1280px;
+  border-bottom: 1px solid #ebebeb;
+  background-color: transparent;
+  text-align: center;
+  height: 100%;
+  height: 95px;
+  letter-spacing: 0;
+  color: #252525;
+  overflow-y: scroll;
+}
+
+.list_gnb {
+  margin-left: 220px;
+  display: inline-block;
+  overflow: hidden;
+  list-style: none;
+  width: 500px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 17px;
+}

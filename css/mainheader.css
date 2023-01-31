@@ -1,0 +1,52 @@
+.h_left {
+  height: 280px;
+  margin-bottom: 35px;
+  flex-wrap: wrap;
+  font-size: 40px;
+  align-items: flex-end;
+  justify-content: center;
+}
+.h_center {
+  height: 41px;
+  width: 668px;
+  background: #935BC8;
+  border: 1px solid #935BC8;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+}
+.h_c_people {
+  width: 50px;
+  height: 40px;
+  float: left;
+}
+.h_c_input {
+  font-size: 18px;
+  width: 550px;
+  padding: 10px;
+  border: 0px;
+  outline: none;
+  float: left;
+}
+.h_c_search {
+  width: 40px;
+  height: 40px;
+  margin-right: 3px;
+}
+.h_center > button {
+  border: 0px;
+  background-color: #663298;
+  outline: none;
+  float: right;
+  color: #ffffff;
+}
+.h_right {
+  float: right;
+  padding-top: 40px;
+  font-size: 12px;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  align-self: flex-end;
+  justify-content: center;
+  margin-right: 75px;
+}

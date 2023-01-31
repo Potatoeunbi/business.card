@@ -1,0 +1,47 @@
+.h_left {
+  height: 40px;
+  width: 200px;
+  padding-left: 70px;
+}
+.h_left > h1 {
+  margin: 0;
+}
+.h_left > p {
+  line-height: 60px;
+}
+.h_center {
+  height: 41px;
+  width: 668px;
+  border: 1px solid #935BC8;
+  background: #935BC8;
+}
+.h_c_people {
+  width: 50px;
+  height: 40px;
+  float: left;
+}
+.h_c_input {
+  font-size: 18px;
+  width: 550px;
+  padding: 10px;
+  border: 0px;
+  outline: none;
+  float: left;
+}
+.h_c_search {
+  width: 40px;
+  height: 40px;
+}
+.h_center > button {
+  border: 0px;
+  background-color: #935BC8;
+  outline: none;
+  float: right;
+  color: #ffffff;
+}
+.h_right {
+  height: 45px;
+  padding-left: 450px;
+  font-size: 14px;
+  white-space: nowrap;
+}

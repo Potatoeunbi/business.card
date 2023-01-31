@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  margin: 0;
+  width: 1325px;
+}
+.container > div {
+  display: flex;
+}
+.head > div {
+  display: flex;
+}
+#flex {
+  display: flex;
+}
+#btnOpen {
+  display: flex;
+}
+#mypage {
+  display: flex;
+}
+#Logoutbt {
+  display: flex;
+}
